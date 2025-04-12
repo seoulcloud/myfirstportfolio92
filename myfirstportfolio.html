@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>재신의 포트폴리오</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- 헤더 -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">My Portfolio</a>
+          
+              <!-- 햄버거 버튼 -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <!-- 네비 메뉴 -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- 메인 -->
+    <main>
+        <!-- Hero -->
+        <!-- <section id="home">...</section> -->
+        <section id="hero" class="hero">
+            <div class="container">
+              <h2 class="hero-title">안녕하세요, 저는 <span>도전과 성장을 즐기는 <b>김재신</b></span> 입니다!</h2>
+              <p class="hero-description">클라우드와 디지털 전환을 전문적으로 공부하고 있습니다.</p>
+              <a href="#projects" class="btn-cta">프로젝트 보러 가기</a>
+            </div>
+          </section>
+
+          <!-- About -->
+        <section id="about" class="about">
+            <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+            <img src="./img/profile.jpg" alt="Profile Picture" class="about-img" />
+            <div class="about-text">
+          <h3>클라우드 엔지니어 | 디지털 전환 솔루션</h3>
+          <p>
+            다양한 클라우드 솔루션과 트러블 슈팅을 제공하는 개발자를 목표로 하고 있습니다. <p></p>
+            여러 기술을 배우며 성장하고 있으며, 새로운 기술을 도입하는 것을 좋아합니다.
+          </p>
+          <p>
+            HTML, CSS, JavaScript를 사용한 프론트엔드 개발뿐만 아니라 백엔드 기술도 공부하며 이해와 경험을 바탕으로한 최적의 솔루션을 제공하려고 합니다.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Projects 섹션 -->
+<section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title" >My projects </h2>
+      <div class="project-grid">
+        <!-- 프로젝트 카드 예시 -->
+        <div class="project-card">
+          <img src="./img/ExProject01.png" alt="Project 1">
+          <h3>클라우드 프로젝트</h3>
+          <p>AWS 클라우드 마이그레이션</p>
+          <a href="https://github.com/yourname/project1" target="_blank">자세히 보기</a>
+        </div>
+  
+        <div class="project-card">
+          <img src="./img/ExProject02.png" alt="Project 2">
+          <h3>클라우드 프로젝트2</h3>
+          <p>업로드 예정</p>
+          <a href="https://yourblog.com/dept-system" target="_blank">자세히 보기</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact 섹션 -->
+<!-- Contact 섹션 -->
+<!-- Contact 섹션 -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <p>아래 연락처를 통해 언제든지 연락 주세요!</p>
+        <ul class="contact-info">
+            <li><strong>Email:</strong> integrall92@gmail.com</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></li>
+            <li><strong>Blog:</strong> <a href="https://yourblog.tistory.com" target="_blank">yourblog.tistory.com</a></li>
+        </ul>
+
+        <h3>또는 이메일을 보내 주세요:</h3>
+        
+        <!-- 이메일 폼 -->
+        <form action="your-server-endpoint" method="POST">
+            <div class="mb-3">
+                <label for="name" class="form-label">이름</label>
+                <input type="text" class="form-control" id="name" name="name" required placeholder="이름을 입력하세요">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">이메일</label>
+                <input type="email" class="form-control" id="email" name="email" required placeholder="이메일을 입력하세요">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">메시지</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required placeholder="메시지를 입력하세요"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">보내기</button>
+        </form>
+    </div>
+</section>
+
+
+
+    </main>
+
+    <!-- 푸터 -->
+     <footer>
+
+<footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 JaeShinKIM. All rights reserved.</p>
+    </div>
+  </footer>
+  
+
+     </footer>
+
+     <script src="script.js"></script>
+
+</body>
+</html>

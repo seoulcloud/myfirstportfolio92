@@ -1,0 +1,191 @@
+/* 기본 스타일 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 폰트와 배경 설정 */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* 컨테이너 너비 제한 */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* 헤더 스타일 */
+  header {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  } */
+
+  /* Hero 섹션 */
+.hero {
+    background-color: #DDDDDD; /* 배경 */
+    color: white;
+    padding: 100px 0; /* 위 아래 여백 */
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .hero-title span {
+    color: #ffff99; /* 강조색 */
+  }
+  
+  .hero-description {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #000000;
+    
+  }
+  
+  .btn-cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #ffff99;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  .btn-cta:hover {
+    background-color: #A04040; /* 버튼 호버 효과 */
+    color: #FFFFFF;
+    transition: background-color 1s ease
+  }
+
+  .about-img{
+    width: 180px;   
+    height: 180px;
+    border-radius: 10%; /* 동그랗게 만들기 */
+    object-fit: cover;  /* 이미지가 잘리는 걸 방지 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 살짝 그림자 */
+    margin-bottom: 20px;
+  }
+  
+  .projects {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .project-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .project-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 12px;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  .project-card a:hover {
+    color: #0056b3;
+  }
+  
+  .contact {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    /* text-align: center; */
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .contact-info li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .contact-info a:hover {
+    color: #0056b3;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  /* 기본 스타일 */
+
+  
